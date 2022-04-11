@@ -1,0 +1,16 @@
+.customBtn {
+  margin-left: 20px;
+  outline: none;
+  border: none;
+  background-color: #5890ff;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btnDisabled {
+  background-color: #6c757d !important;
+  opacity: 0.5 !important;
+}

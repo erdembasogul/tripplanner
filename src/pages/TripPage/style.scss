@@ -1,0 +1,14 @@
+.tripboxWrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media(max-width: 1200px) {
+        justify-content: space-around;
+    }
+}
+.citiesPhotosWrapper {
+    
+}

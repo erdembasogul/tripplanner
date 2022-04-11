@@ -1,0 +1,31 @@
+.footerWrapper {
+  width: 100%;
+  height: 50px;
+  background-color: #3972dc;
+  // position: absolute;
+  // bottom: 0;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  &--footer {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff;
+    }
+    &--socials {
+        width: 100px;
+        display: flex;
+        // margin-left: auto;
+        &--social {
+            font-size: 25px;
+            width: 50px;
+            margin-right: 10px;
+        }
+    }
+  }
+}
