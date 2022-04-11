@@ -45,7 +45,7 @@ const HomePage = () => {
         <div className="homePage--top">
           <span>Bütçeniz</span>
           <input type={"text"} onChange={handleBudgetChange} value={budget} />
-          <Link to="/test">
+          <Link to="/trip">
             <Button title="Seyahat Planla" color={"white"} disabled={selectedCities.length < 3 || budget == 0}/>
           </Link>
         </div>
