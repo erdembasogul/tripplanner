@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "./layout";
 import HomePage from "./pages/HomePage/HomePage";
-import Test from "./pages/TripPage/TripPage";
+import TripPage from "./pages/TripPage/TripPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/trip" element={<Test />} />
+            <Route path="/trip" element={<TripPage />} />
           </Routes>
         </BrowserRouter>
       </Layout>
