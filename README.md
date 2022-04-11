@@ -1,8 +1,6 @@
 <h2>Trip Planner</h2>
 TripPlanner
 
-Demo Link: 
-<a href="https://trip-planner-case.herokuapp.com/">Demo Link</a>
 
 
 Kurulum: 
